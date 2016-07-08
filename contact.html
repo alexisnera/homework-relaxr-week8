@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Contact the Relaxr team">
+    <meta name="keywords" content="contact, relax, message">
+
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300italic,300,600,800' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/960_12_col.css">
+	<link rel="stylesheet" type="text/css" href="css/contact_style.css">
+
+	<title>Relaxr Blog</title>
+	
+	<!--
+	Link to Normalize CSS, Google Fonts (http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,600,800), 960 Grid CSS, and your style sheet.
+	-->
+
+</head>
+<body>
+
+		<header>
+			<nav>
+				<h1 class="logo">Relaxr</h1>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="blog.html">Blog</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
+
+		<section class="wrapper container_12">
+
+			<h1>Contact Us</h1>
+			<section class="grid_8">
+				<form action="#" method="post" id="contact" name="contact">
+					<fieldset>
+						<div class="formLegend">
+							<legend>Account Info</legend>
+						</div>
+						<div class="formFill">
+							<label for="Name">Name</label>
+							<input id="name" class="formIcons name" type="text" name="Name" method="post">
+							<span class="error"><p id="name_error"></p></span>	
+						</div>
+						<div class="formFill">
+							<label for="Company">Company</label>
+							<input id="company" class="formIcons company" type="text" name="Company" method="post">
+							<span class="error"><p id="company_error"></p></span>
+						</div>
+						<div class="formFill">
+							<label for="Email">Email</label>
+							<input id="email" class="formIcons email" type="text" name="Email" method="post">
+							<span class="error"><p id="email_error"></p></span>
+						</div>
+						<div class="formFill">
+							<label for='Location'>Location</label>
+						</div>
+						<div class="locFormFill">
+							<input class="radioButtons" id="int" type="radio" name="Location" value="International" method="post"><span>International</span>
+							<input class="radioButtons" id="loc" type="radio" name="Location" value="Local" method="post"><span>Local - US</span>
+							<div>
+								<select id="state" class="state">
+									<option value="Select State" method="post">Select State</option>
+								</select>
+							</div>
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="formLegend">
+							<legend>Project Info</legend>
+						</div>
+						<div class="formFill">
+							<label for="projectDescription">Project Description</label>
+							<input id="projectDescription" class="formIcons projectDescription" type="text" name="projectDescription" method="post">
+							<span class="error"><p id="projectDescription_error"></p></span>
+						</div>
+					</fieldset>
+					<fieldset>
+						<div class="submitBtn">
+							<input id="submit" type="submit" name="Submit" value="Send Message">
+						</div>
+					</fieldset>
+				</form>
+			</section>
+		
+			<aside class="grid_4">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam amet totam labore eaque sit praesentium explicabo blanditiis optio laboriosam ab id, deleniti, vel nam doloremque dolorum quia at assumenda perspiciatis.</p>
+			</aside>
+		</section>
+		<footer>
+			<h4 class="logoFooter">Relaxr</h4>
+
+			<ul>
+				<li><a href="#"><img src="images/twitter.png" alt="Twitter logo"></a></li>
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook logo"></a></li>
+			</ul>
+
+			<p class="copyright">Copyright 2015. Relaxr.</p>
+		</footer>
+
+</body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="js/dropdownIndex.js"></script>
+
+</html>
+
+
+
